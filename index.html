@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Landing page da ENTRENÓS Store. Camisetas casuais com identidade de amizade, resenha e dia a dia." />
+  <title>ENTRENÓS Store | A resenha veste você</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">LANÇAMENTO EM BREVE · CAMISETAS CASUAIS · COMPRE PELO WHATSAPP</div>
+
+  <header class="site-header" id="topo">
+    <a class="brand" href="#topo" aria-label="ENTRENÓS Store">
+      <span class="brand-mark">
+        <img src="assets/iconEntreNos.png" alt="" aria-hidden="true" />
+      </span>
+      <span class="brand-text">ENTRENÓS <small>STORE</small></span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-links" aria-label="Navegação principal">
+      <a href="#colecao">Coleção</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#sobre">A marca</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="header-icon js-show-favorites" type="button" aria-label="Ver favoritos">
+        <svg class="header-action-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20.8 4.6c-2-2-5.1-1.8-6.9.2L12 6.9l-1.9-2.1c-1.8-2-4.9-2.2-6.9-.2-2.2 2.2-2.2 5.7 0 7.9L12 21l8.8-8.5c2.2-2.2 2.2-5.7 0-7.9Z" />
+        </svg>
+        <span>Favoritos</span>
+        <strong class="favorite-count">0</strong>
+      </button>
+      <button class="header-icon cart-trigger" type="button" aria-label="Abrir carrinho">
+        <svg class="header-action-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7 8V7a5 5 0 0 1 10 0v1" />
+          <path d="M5.4 8h13.2l1 12H4.4l1-12Z" />
+        </svg>
+        <span>Carrinho</span>
+        <strong class="cart-count">0</strong>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-dark">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">ENTRENÓS STORE · DROP 01</p>
+        <h1>A RESENHA<br>VESTE<br>VOCe.</h1>
+        <p class="hero-description">Camisetas casuais para o dia a dia, feitas para quem vive boas histórias com os amigos.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#produtos">Montar pedido</a>
+          <button class="button button-secondary cart-trigger" type="button">Abrir carrinho</button>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-1" aria-label="Mockup de camiseta ENTRENÓS Store">
+        <div class="massive-word" aria-hidden="true">ENTRENÓS</div>
+        <img src="assets/modelo-camiseta.png" alt="Camiseta preta ENTRENÓS Store com personagens" />
+      </div>
+
+      <div class="hero-badges reveal delay-2">
+        <span>Unissex</span>
+        <span>R$35-R$50</span>
+        <span>Casual</span>
+      </div>
+    </section>
+
+    <section class="category-strip" id="colecao">
+      <a href="#produtos" class="category-card reveal">
+        <span>01</span>
+        <strong>Camisetas</strong>
+        <small>Modelos básicos com estampas fortes.</small>
+      </a>
+      <a href="#produtos" class="category-card reveal delay-1">
+        <span>02</span>
+        <strong>Frases</strong>
+        <small>Humor, amizade e resenha cotidiana.</small>
+      </a>
+      <a href="#produtos" class="category-card reveal delay-2">
+        <span>03</span>
+        <strong>Ícones</strong>
+        <small>Logo e mascotes para estampas menores.</small>
+      </a>
+    </section>
+
+    <section class="editorial-block">
+      <div class="editorial-text reveal">
+        <p class="eyebrow dark">NOVA IDENTIDADE</p>
+        <h2>ROUPA DE TODO DIA, COM CARA DE MOMENTO BOM.</h2>
+      </div>
+      <div class="editorial-image reveal delay-1">
+        <img src="assets/dodelobar.png" alt="Logo ENTRENÓS Store com mascotes de amizade" />
+      </div>
+    </section>
+
+    <section class="products" id="produtos">
+      <div class="section-title reveal">
+        <div>
+          <p class="eyebrow dark">BEST OF ENTRENÓS</p>
+          <h2>Escolha o primeiro modelo</h2>
+        </div>
+        <button class="section-link js-show-favorites" type="button">Ver favoritos</button>
+      </div>
+
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+    </section>
+
+    <section class="split section-dark" id="sobre">
+      <div class="split-media reveal">
+        <img src="assets/modelo2-camiseta.png" alt="Mockup de pessoa usando camiseta ENTRENÓS Store" />
+      </div>
+      <div class="split-copy reveal delay-1">
+        <p class="eyebrow">A MARCA</p>
+        <h2>FEITA PRA QUEM NÃO VIVE NADA SOZINHO.</h2>
+        <p>A ENTRENÓS nasce com uma ideia simples: camiseta boa, preço acessível e estampas que parecem conversa de amigo.</p>
+        <ul class="feature-list">
+          <li><span>01</span> Visual preto, branco e dourado.</li>
+          <li><span>02</span> Estampas para usar no cotidiano.</li>
+          <li><span>03</span> Compra direta e rápida pelo WhatsApp.</li>
+        </ul>
+        <a class="button button-primary" href="#produtos">Ver peças</a>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="benefit reveal"><span>Entrega</span><strong>Combine direto</strong><p>Pagamento e envio conversados pelo WhatsApp.</p></div>
+      <div class="benefit reveal delay-1"><span>Tamanhos</span><strong>P ao GG</strong><p>Escolha o tamanho antes de adicionar ao carrinho.</p></div>
+      <div class="benefit reveal delay-2"><span>Estampas</span><strong>Drop rotativo</strong><p>Favoritos salvos para você voltar depois.</p></div>
+      <div class="benefit reveal delay-3"><span>Pedido</span><strong>WhatsApp</strong><p>Carrinho transforma sua seleção em mensagem pronta.</p></div>
+    </section>
+
+    <section class="cta-final" id="contato">
+      <p class="eyebrow dark">PRONTO PARA VENDER</p>
+      <h2>CURTIU ALGUM MODELO?</h2>
+      <p>Monte o carrinho com tamanhos e quantidades. O pedido final abre direto no WhatsApp com tudo organizado.</p>
+      <button class="button button-dark cart-trigger" type="button">Finalizar pelo WhatsApp</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="brand" href="#topo" aria-label="ENTRENÓS Store">
+          <span class="brand-mark">
+            <img src="assets/iconEntreNos.png" alt="" aria-hidden="true" />
+          </span>
+          <span class="brand-text">ENTRENÓS <small>STORE</small></span>
+        </a>
+        <p>Camisetas casuais com identidade de amizade, resenha e dia a dia. A resenha veste você.</p>
+        <button class="button button-primary cart-trigger" type="button">Montar pedido</button>
+      </div>
+
+      <div class="footer-column">
+        <span>Mapa</span>
+        <a href="#colecao">Coleção</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">A marca</a>
+        <a href="#contato">Contato</a>
+      </div>
+
+      <div class="footer-column">
+        <span>Compra</span>
+        <button type="button" class="footer-link cart-trigger">Abrir carrinho</button>
+        <button type="button" class="footer-link js-show-favorites">Favoritos</button>
+        <a href="#produtos">Ver modelos</a>
+      </div>
+
+      <div class="footer-column">
+        <span>Atendimento</span>
+        <p>Pedidos e dúvidas são combinados direto pelo WhatsApp.</p>
+        <small>Segunda a sexta · 9h às 18h</small>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 ENTRENÓS Store · Todos os direitos reservados.</span>
+      <a href="https://www.instagram.com/mireva.design" target="_blank" rel="noopener noreferrer">Feito com muito carinho: @mireva.design</a>
+      <a href="#topo">Voltar ao topo</a>
+    </div>
+  </footer>
+
+  <div class="screen-overlay" data-close-panels hidden></div>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true" aria-label="Carrinho de compras">
+    <div class="drawer-head">
+      <div>
+        <p class="eyebrow dark">Seu pedido</p>
+        <h2>Carrinho</h2>
+      </div>
+      <button class="panel-close" type="button" data-close-panels aria-label="Fechar carrinho">×</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <p class="cart-empty" id="cartEmpty">Seu carrinho ainda está vazio.</p>
+    <div class="cart-summary">
+      <div><span>Total</span><strong id="cartTotal">R$ 0,00</strong></div>
+      <button class="button button-primary" type="button" id="checkoutButton">Finalizar no WhatsApp</button>
+    </div>
+  </aside>
+
+  <aside class="favorites-drawer" id="favoritesDrawer" aria-hidden="true" aria-label="Produtos favoritos">
+    <div class="drawer-head">
+      <div>
+        <p class="eyebrow dark">Sua seleção</p>
+        <h2>Favoritos</h2>
+      </div>
+      <button class="panel-close" type="button" data-close-panels aria-label="Fechar favoritos">×</button>
+    </div>
+    <div class="favorites-items" id="favoritesItems"></div>
+    <div class="favorites-empty" id="favoritesEmpty">
+      <p>Nenhuma peça favoritada ainda.</p>
+      <a class="button button-primary" href="#produtos" data-close-panels>Ver modelos</a>
+    </div>
+  </aside>
+
+  <section class="product-detail" id="productDetail" aria-hidden="true" aria-label="Detalhes do produto">
+    <div class="detail-shell">
+      <button class="detail-back" type="button" data-close-detail>← Voltar para vitrine</button>
+      <button class="panel-close detail-close" type="button" data-close-detail aria-label="Fechar detalhes">×</button>
+      <div class="detail-content" id="detailContent"></div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

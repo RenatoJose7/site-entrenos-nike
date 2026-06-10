@@ -1,0 +1,18 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="900" y2="1100" gradientUnits="userSpaceOnUse"><stop stop-color="#141414"/><stop offset="1" stop-color="#030303"/></linearGradient>
+    <filter id="s" x="0" y="0" width="900" height="1100"><feDropShadow dx="0" dy="36" stdDeviation="28" flood-color="#000" flood-opacity=".45"/></filter>
+  </defs>
+  <rect width="900" height="1100" rx="56" fill="#F2F0EA"/>
+  <path d="M197 246C232 215 283 188 337 179C360 212 394 230 450 230C506 230 540 212 563 179C618 188 668 215 703 246L824 370L715 485L671 443V928C671 966 641 996 603 996H297C259 996 229 966 229 928V443L185 485L76 370L197 246Z" fill="url(#g)" filter="url(#s)"/>
+  <path d="M340 180C355 230 389 262 450 262C511 262 545 230 560 180" stroke="#252525" stroke-width="28" stroke-linecap="round"/>
+  <rect x="288" y="462" width="324" height="126" rx="18" fill="#050505" stroke="#fff" stroke-width="7" transform="rotate(-2 288 462)"/>
+  <text x="450" y="537" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="58" fill="#fff" transform="rotate(-2 450 537)">ENTRENÓS</text>
+  <text x="450" y="579" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="25" fill="#F5B21A" letter-spacing="8" transform="rotate(-2 450 579)">STORE</text>
+  <g stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M346 700c0-48 28-81 69-81 15 0 28 4 39 13 13-17 33-26 56-26 39 0 67 29 69 75 27 5 44 25 44 52 0 31-22 55-54 55H400c-32 0-54-24-54-55 0-11 0-21 0-33z" fill="#050505"/>
+    <path d="M411 705c12 18 38 18 50 0M515 693c12 18 38 18 50 0"/>
+    <circle cx="407" cy="678" r="5" fill="#fff"/><circle cx="464" cy="678" r="5" fill="#fff"/><circle cx="511" cy="668" r="5" fill="#fff"/><circle cx="568" cy="668" r="5" fill="#fff"/>
+  </g>
+  <g stroke="#F5B21A" stroke-width="8" stroke-linecap="round"><path d="M395 622v-24M373 629l-16-19M494 610v-28M520 619l16-19"/></g>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="s" x="0" y="0" width="900" height="1100"><feDropShadow dx="0" dy="34" stdDeviation="28" flood-color="#000" flood-opacity=".32"/></filter></defs>
+  <rect width="900" height="1100" rx="56" fill="#F2F0EA"/>
+  <path d="M197 246C232 215 283 188 337 179C360 212 394 230 450 230C506 230 540 212 563 179C618 188 668 215 703 246L824 370L715 485L671 443V928C671 966 641 996 603 996H297C259 996 229 966 229 928V443L185 485L76 370L197 246Z" fill="#0A0A0A" filter="url(#s)"/>
+  <path d="M340 180C355 230 389 262 450 262C511 262 545 230 560 180" stroke="#252525" stroke-width="28" stroke-linecap="round"/>
+  <text x="450" y="465" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="92" fill="#fff" letter-spacing="-3">SÓ MAIS</text>
+  <text x="450" y="565" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="128" fill="#F5B21A" letter-spacing="-5">UMA</text>
+  <line x1="300" y1="615" x2="600" y2="615" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  <text x="450" y="675" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#fff" letter-spacing="7">ENTRENÓS STORE</text>
+</svg>
